@@ -6,5 +6,4 @@ For running the code:
 - Install ``ollama`` on your machine: ``curl -fsSL https://ollama.com/install.sh | sh``
 - Pull the llm that you want to use as the base model. The model should be selected based on the machine that the code is running on. For example: ``ollama run command-r:35b-v0.1-fp16`` or ``ollama run llama3:70b``.
 - Run the application: ``streamlit run app.py``.
-- 
-
+  
