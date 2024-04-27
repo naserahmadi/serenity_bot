@@ -15,5 +15,8 @@ After each conversation (when the user logged out from the system). We ask the c
 Before starting each session we check ``users'' folder to see if we can retireve any report about the current user. If there is a report we pass it to the chatbot. 
 
 ## Chatbot evaluation
-In the current version, we ask user to rate the chatbot (from 1 to 5) and this data is stored in the users preferences. 
-Another idea for evaluating chatbot is to use stronger models (GPT-4 or LLama3-70) to give a score to the output of the chatbot. Training a reference model (e.g. *Prometheus*) is another option which will be expensive. 
+In the current version, we deployed the easiest way to evaluate our chatbot: asking user to rate the chatbot (from 1 to 5) and this data is stored in the users preferences.
+Some other methods can be done for the evaluation:
+- Use stronger models (GPT-4 or LLama3-70) to give a score to the output of the chatbot.
+- Training a reference model (e.g. *Prometheus*) is another option which will be expensive.
+- Use real or synthetic data from conversations between a therapist and a patient and see how good our model performs on those scenarios. We can create these scenarios from real cases or prompt a strong model like GPT-4 for creating those scenarios. These scenarios should be in chat format.  
