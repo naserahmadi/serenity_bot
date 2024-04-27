@@ -1,4 +1,7 @@
 # serenity_bot
+
+![image](https://github.com/naserahmadi/serenity_bot/assets/45039751/0eaac3eb-78e5-453a-b7eb-9742bf557c4d)
+
 This repository contains the code for a therapist chatbot. 
 The chatbot was built based on ``streamlit`` and ``ollama``. 
 For running the code: 
