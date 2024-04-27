@@ -10,3 +10,10 @@ For running the code:
 - Pull the llm that you want to use as the base model. The model should be selected based on the machine that the code is running on. For example: ``ollama run command-r:35b-v0.1-fp16`` or ``ollama run llama3:70b``. You can easily change your llm in the chatbot ui. 
 - Run the application: ``streamlit run app.py``.
   
+## How chatbot manages history?
+After each conversation (when the user logged out from the system). We ask the chatbot to create a report from the previous conversation (a report which contains the information and symptoms related to the current user). This infomation are stored in ``users`` folder. 
+Before starting each session we check ``users'' folder to see if we can retireve any report about the current user. If there is a report we pass it to the chatbot. 
+
+## Chatbot evaluation
+In the current version, we ask user to rate the chatbot (from 1 to 5) and this data is stored in the users preferences. 
+Another idea for evaluating chatbot is to use stronger models (GPT-4 or LLama3-70) to give a score to the output of the chatbot. Training a reference model (e.g. *Prometheus*) is another option which will be expensive. 
