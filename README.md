@@ -1,6 +1,6 @@
 # serenity_bot
 
-![image](https://github.com/naserahmadi/serenity_bot/assets/45039751/0eaac3eb-78e5-453a-b7eb-9742bf557c4d)
+![logo](https://github.com/naserahmadi/serenity_bot/assets/45039751/dcedf8fb-b072-4267-9087-4801ba9d0822)
 
 This repository contains the code for **serenity bot**. Serenity is a therapist chatbot that helps customer in anger management, stress relief, etc. 
 The chatbot was built based on ``streamlit`` and ``ollama``. 
@@ -20,3 +20,5 @@ Some other methods can be done for the evaluation:
 - Use stronger models (e.g. **GPT-4** or **llama3-70**) to give a score to the output of the chatbot.
 - Training a reference model (e.g. *Prometheus*) is another option which will be expensive.
 - Use real or synthetic data from conversations between a therapist and a patient and see how good our model performs on those scenarios. We can create these scenarios from real cases or prompt a strong model like GPT-4 for creating those scenarios. These scenarios should be in chat format.  
+
+![image](https://github.com/naserahmadi/serenity_bot/assets/45039751/0eaac3eb-78e5-453a-b7eb-9742bf557c4d)
