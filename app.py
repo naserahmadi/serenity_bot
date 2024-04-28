@@ -5,7 +5,9 @@ import database
 import streamlit as st
 from time import sleep
 
+
 st.title("Welcome to SerenityBot")
+st.image('logo.png', width=500, use_column_width=None, clamp=True, channels="RGB", output_format="auto")
 
 st.write("Please log in to continue.")
 
