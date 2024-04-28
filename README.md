@@ -1,6 +1,6 @@
 # serenity_bot
 
-<img src="https://github.com/naserahmadi/serenity_bot/assets/45039751/dcedf8fb-b072-4267-9087-4801ba9d0822" width="600" height="500" align="middle">
+![image](https://github.com/naserahmadi/serenity_bot/assets/45039751/df8eea02-cfd2-4e68-a429-2fdc86b71b30)
 
 This repository contains the code for **serenity bot**. Serenity is a therapist chatbot that helps customer in anger management, stress relief, etc. 
 The chatbot was built based on ``streamlit`` and ``ollama``. 
